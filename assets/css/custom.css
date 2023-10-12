@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: aqua;
+
+}
+.containerc {
+  background-color: lightgreen;
+  margin-left: 10%;
+  width: 98%;
+}
+nav div {
+  background-color: rgb(77, 153, 179);
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  width: 98%;
+  align-items: center;
+  margin-left: 1%;
+}
+nav div button {
+  border-radius: 30px;
+  background: var(--osler-gray-white, #fff);
+  box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
+  width: 80px;
+  height: 80px;
+}
+.zalia {
+  background: var(--healing-green-50, #84cc16);
+  box-shadow: 0px 16px 32px 0px rgba(132, 204, 22, 0.25);
+}
+main h1 {
+  background-color: pink;
+  width: 40%;
+  height: 15%;
+  color: var(--osler-gray-80, #2f3c33);
+  font-family: Nunito;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: -1.8px;
+}
+.zalias {
+  color: var(--healing-green-50, #84cc16);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: -1.8px;
+}
+.tekstukas {
+  color: var(--osler-gray-60, #647067);
+  margin-top: 2%;
+  width: 40%;
+  height: 15%;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.24px;
+}
+.divs{
+    margin-top: 2%;
+}
+.tai {
+  color: var(--osler-gray-60, #647067);
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.download-tekstas {
+  color: var(--osler-gray-white, #fff);
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  margin-top: 2%;
+}
+.downlaod-buttonas {
+  display: flex;
+  height: 64px;
+  padding: 16px 32px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 24px;
+  background: var(--osler-gray-80, #2f3c33);
+}
+.telefonas{
+    float: inline-end;
+}
