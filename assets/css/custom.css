@@ -19,6 +19,16 @@ body {
   background-size: cover;
   background-size: 100% 59.8rem;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  overflow-y: scroll;
+}
+body {
+  scrollbar-width: none; /* Firefox /
+  -ms-overflow-style: none;  / IE and Edge */
+}
 .containerc {
   margin-left: 2%;
   margin-right: 2%;
@@ -162,6 +172,7 @@ aside div a {
   gap: 0.625rem;
 }
 aside div {
+      margin-top: 8rem;
   height: 2.5rem;
   margin-bottom: 1.25rem;
 }
@@ -341,6 +352,8 @@ aside div {
   gap: 0.625rem;
   border-radius: 11.25rem;
   background: var(--osler-gray-10, #f5f5f5);
+  margin-left: 1%;
+  margin-right: 1%;
 }
 .lyg {
   margin-bottom: 3rem;
@@ -527,7 +540,6 @@ section div div h2 {
   display: flex;
   width: 39.625rem;
   height: 39.75rem;
-  flex-direction: flex;
   justify-content: left;
   align-items: center;
   border-radius: 11.25rem;
@@ -717,7 +729,6 @@ section div div h2 {
 }
 .just {
   display: flex;
-  gap: -0.5rem;
 }
 .just1:nth-child(2) {
   display: flex;
@@ -725,7 +736,6 @@ section div div h2 {
   justify-content: center;
   align-items: center;
   color: var(--osler-gray-60, #647067);
-  text-align: right bottom;
   font-family: Nunito;
   font-size: 0.875rem;
   font-style: normal;
@@ -1243,17 +1253,19 @@ section div div h2 {
   gap: 0.625rem;
 }
 footer {
+  margin-top: 2rem;
   border-radius: 11.25rem 11.25rem 0rem 0rem;
   background: var(--osler-gray-80, #2f3c33);
+}
+.footeriui {
   display: flex;
   width: 100%;
-  height: 60rem;
-  padding: 0rem;
   justify-content: center;
   align-items: center;
   text-align: center;
   gap: 5.4375rem;
   flex-shrink: 0;
+  padding: 1.5rem 2rem;
 }
 .instain {
   display: flex;
@@ -1323,7 +1335,7 @@ footer {
 .av {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+
   align-items: center;
   gap: 3rem;
 }
@@ -1360,10 +1372,8 @@ footer li a:hover {
   display: flex;
   height: 5rem;
   padding: 1.5rem 2rem;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.625rem;
   flex: 1 0 0;
   border-radius: 1.875rem;
   background: var(--healing-green-50, #84cc16);
@@ -1375,10 +1385,13 @@ footer li a:hover {
   font-weight: 800;
   line-height: normal;
   letter-spacing: -0.0225rem;
+  width: 48vw;
 }
-.rowass{
-  display: flex;
+.rowass {
+  display: inline-flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
+  margin-left: 1.1%;
 }
